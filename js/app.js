@@ -35,7 +35,7 @@ let products = [
     {
         id: 4,
         name: 'Božićna čestitka',
-        image: 'ivana.jpg',
+        image: 'ivana.png',
         price: "1000"
     },
     {
