@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>WishCraft Shop</title>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="format-detection" content="telephone=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="author" content="">
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	    <link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+	    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+		<link rel="stylesheet" type="text/css" href="shopstil.css">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    
+
+		<!-- script
+		================================================== -->
+		<script src="js/modernizr.js"></script>
+
+	</head>
+
+<body>
+
+
+<div id="header-wrap">
+
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+
+				<div id="zalogo"><a href="index.html"><img id="logo" src="images/WishCraft logo.png" alt=""></a></div>
+
+				<div class="col-md-10">
+					
+					<nav id="navbar">
+						<div class="main-menu stellarnav">
+							
+							<ul class="menu-list">
+								<li class="menu-item active"><a href="index.html">Početna</a></li>
+								<li class="menu-item"><a href="shop.html" class="nav-link">Shop</a></li>
+								<li class="menu-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
+								<li class="menu-item"><a href="about.html" class="nav-link">O nama</a></li>
+							</ul>
+
+							<div class="hamburger">
+				                <span class="bar"></span>
+				                <span class="bar"></span>
+				                <span class="bar"></span>
+				            </div>
+
+						</div>
+					</nav>
+
+				</div>
+
+			</div>
+		</div>
+	</header>
+		
+</div><!--header-wrap-->
+
+<div>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">			
+				
+			</div>
+		</div>
+	</div>
+</div><!--site-banner-->
+
+    <div class="container">
+        <header>
+            <h1>Shop</h1>
+            <div class="shopping">
+                <img src="images/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+		
+
+        <div class="list">
+          
+        </div>
+    </div>
+
+    <div class="card" style="z-index:20;">
+        <h1>Vaša korpa</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <a href="plati.html"><div class="total">0</div></a>
+            <div class="closeShopping">Zatvori</div>
+        </div>
+    </div>
+
+  
+    <div class="container">
+		<div><h1 style="margin-top: 100px;">Personalizovana čestitka</h1>
+		<p>Želiš čestitku za rođendan, krštenje, svadbu ili godišnjicu? Na pravom si mestu! Objasni nam kakvu čestitku želis!</p></div>
+		<div id="upit">
+			<form action="/action_page.php">
+			  <label for="fname">Za koga je čestitka?</label>
+			  <input type="text" id="fname" name="firstname" placeholder="..">
+		  
+			  <label for="lname">Upiši tekst za unutrašnju stranu čestitke</label>
+			  <input type="text" id="lname" name="lastname" placeholder="Draga Ivona, želim ti najsrećniji rođendan...">
+		  
+			  <label for="country">Odaberi boje</label>
+			  <input type="color" value="#ff0000">
+			  <input type="color" value="#ccc">
+
+			  <label for="lname">Da li postoji nešto što želiš da naglasiš?</label>
+			  <textarea name="" id="" cols="30" rows="10"></textarea>
+			  <label for="myfile">Pošalji nam vašu zajedničku sliku</label>
+			  <input type="file" id="myfile" name="myfile" multiple><br><br>
+			  
+
+
+			  <input type="submit" value="Pošalji">
+			</form>
+		  </div>
+	</div>	
+
+<!-- <section class="padding-large">
+	<div class="container">
+		<div class="row">
+
+			<div class="products-grid grid">
+
+			  	<figure class="product-style">
+					<a href="cestitka1.html"><img src="images/tab-item1.jpg" alt="Books" class="product-item"></a>
+					<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Dodaj u korpu</button>
+					<figcaption>
+						<h3>Portrait photography</h3>
+						<div class="item-price">$ 40.00</div>
+					</figcaption>
+				</figure>
+
+			  	<figure class="product-style">
+					<img src="images/tab-item2.jpg" alt="Books" class="product-item">
+					<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to Cart</button>
+					<figcaption>
+						<h3>Once upon a time</h3>
+						<div class="item-price">$ 35.00</div>
+					</figcaption>
+				</figure>
+
+			  	<figure class="product-style">
+					<img src="images/tab-item3.jpg" alt="Books" class="product-item">
+					<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to Cart</button>
+					<figcaption>
+						<h3>Tips of simple lifestyle</h3>
+						<div class="item-price">$ 40.00</div>
+					</figcaption>
+				</figure>
+
+			  	<figure class="product-style">
+					<img src="images/tab-item4.jpg" alt="Books" class="product-item">
+					<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to Cart</button>
+					<figcaption>
+						<h3>Just felt from outside</h3>
+						<div class="item-price">$ 40.00</div>
+					</figcaption>
+				</figure>
+
+			  	<figure class="product-style">
+					<img src="images/tab-item5.jpg" alt="Books" class="product-item">
+					<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to Cart</button>
+					<figcaption>
+						<h3>Peaceful Enlightment</h3>
+						<div class="item-price">$ 40.00</div>
+					</figcaption>
+				</figure>
+
+			  	<figure class="product-style">
+					<img src="images/tab-item6.jpg" alt="Books" class="product-item">
+					<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to Cart</button>
+					<figcaption>
+						<h3>Great travel at desert</h3>
+						<div class="item-price">$ 40.00</div>
+					</figcaption>
+				</figure>
+
+			 
+
+			  
+
+	    	</div>
+
+		</div>
+	</div>
+</section> -->
+
+
+
+<div id="footer-bottom" style="background-color: #F38BA3;">
+	
+<img src="image/Screenshot (151).png" alt="">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="copyright">
+					<div class="row">
+
+						<div class="col-md-6">
+								<!-- <p style="margin-top: 35px;">WishCraft</p> -->
+								<p class="nastojimo">Nastojimo da budemo što precizniji u opisu proizvoda, prikazu slika i samih cena, ali ne možemo garantovati da su sve informacije kompletne i bez grešaka. Svi artikli prikazani na sajtu su deo naše ponude i ne podrazumeva da su dostupni u svakom trenutku. </p>
+						</div>
+
+						<div class="col-md-6">
+							<div class="social-links align-right">
+								<!-- <ul>
+									<li>
+										<a href="#"><i class="icon icon-facebook"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-twitter"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-youtube-play"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-behance-square"></i></a>
+									</li>
+								</ul> -->
+							</div>
+						</div>
+
+					</div>
+				</div><!--grid-->
+
+			</div><!--footer-bottom-content-->
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>	
